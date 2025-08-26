@@ -3,9 +3,9 @@ let backgroundMusic = new Audio();
 let portalEnterSound = new Audio();
 let portalExitSound = new Audio();
 
-backgroundMusic.src = "sounds/bg-music.mp3";
-portalEnterSound.src = "sounds/warp-entrance.mp3";
-portalExitSound.src = "sounds/warp-exit.mp3";
+backgroundMusic.src = "SOUNDS/bg-music.mp3";
+portalEnterSound.src = "SOUNDS/warp-entrance.mp3";
+portalExitSound.src = "SOUNDS/warp-exit.mp3";
 let backgroundMusicStatus = 0;
 let backgroundMusicInterval;
 
@@ -271,3 +271,4 @@ document.getElementById("answer-btn-1").addEventListener("click", () => handleCh
 document.getElementById("answer-btn-2").addEventListener("click", () => handleChoice(1))
 document.getElementById("answer-btn-3").addEventListener("click", () => handleChoice(2))
 document.getElementById("answer-btn-4").addEventListener("click", () => handleChoice(3))
+
